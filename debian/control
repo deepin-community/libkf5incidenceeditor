@@ -1,0 +1,89 @@
+Source: libkf5incidenceeditor
+Section: libs
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Norbert Preining <norbert@preining.info>,
+           Sandro Knauß <hefee@debian.org>,
+Build-Depends: cmake (>= 3.16~),
+               debhelper-compat (= 13),
+               extra-cmake-modules (>= 5.83.0~),
+               libkf5akonadi-dev (>= 4:21.08.1~),
+               libkf5akonadicalendar-dev (>= 4:21.08.1~),
+               libkf5akonadicontact-dev (>= 4:21.08.1~),
+               libkf5akonadimime-dev (>= 4:21.08.1~),
+               libkf5calendarcore-dev (>= 5:5.83.0~),
+               libkf5calendarsupport-dev (>= 4:21.08.1~),
+               libkf5calendarutils-dev (>= 4:21.08.1~),
+               libkf5codecs-dev (>= 5.83.0~),
+               libkf5eventviews-dev (>= 4:21.08.1~),
+               libkf5grantleetheme-dev (>= 21.08.1~),
+               libkf5i18n-dev (>= 5.83.0~),
+               libkf5iconthemes-dev (>= 5.83.0~),
+               libkf5kio-dev (>= 5.83.0~),
+               libkf5ldap-dev (>= 21.08.1~),
+               libkf5libkdepim-dev (>= 4:21.08.1~),
+               libkf5mailtransport-dev (>= 21.08.1~),
+               libkf5mime-dev (>= 21.08.1~),
+               libkf5pimcommon-dev (>= 4:21.08.1~),
+               libkgantt-dev (>= 1.4.0~),
+               pkg-kde-tools (>= 0.12),
+               qtbase5-dev (>= 5.15.0~),
+               xauth,
+               xvfb,
+Standards-Version: 4.6.0
+Homepage: https://invent.kde.org/pim/incidenceeditor
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/incidenceeditor
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/incidenceeditor.git
+Rules-Requires-Root: no
+
+Package: libkf5incidenceeditor-bin
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libkf5incidenceeditor-data (<< 19.08.2-1~)
+Description: KDE PIM incidence editor
+ Incidence editor for KDE PIM.
+ .
+ This package provides the runtime programs shipped with the library.
+
+Package: libkf5incidenceeditor-data
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Breaks: libkf5incidenceeditor-bin (<< 19.08.2-1~)
+Replaces: libkf5incidenceeditor-bin (<< 19.08.2-1~)
+Description: KDE PIM incidence editor - shared data
+ Incidence editor for KDE PIM.
+ .
+ This package provides the shared data shipped with the library.
+
+Package: libkf5incidenceeditor-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: same
+Depends: libkf5akonadi-dev (>= 4:21.08.1~),
+         libkf5calendarcore-dev (>= 5:5.83.0~),
+         libkf5eventviews-dev (>= 4:21.08.1~),
+         libkf5incidenceeditor5abi1 (= ${binary:Version}),
+         libkf5mailtransport-dev (>= 21.08.1~),
+         libkf5mime-dev (>= 21.08.1~),
+         libkgantt-dev (>= 1.4.0~),
+         ${misc:Depends},
+         ${shlibs:Depends},
+Description: KDE PIM incidence editor - devel files
+ This library provides an incidence editor for KDE PIM.
+ .
+ This package provides development files.
+
+Package: libkf5incidenceeditor5abi1
+X-Debian-ABI: 1
+X-CMake-Target: KF5IncidenceEditor
+Architecture: any
+Multi-Arch: same
+Depends: libkf5incidenceeditor-data (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends},
+Description: KDE PIM incidence editor - library
+ This library provides an incidence editor for KDE PIM.
+ .
+ This package provides the shared libraries.
+Provides: ${ABI:VirtualPackage}

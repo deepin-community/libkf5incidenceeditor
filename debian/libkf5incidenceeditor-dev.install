@@ -1,0 +1,6 @@
+usr/include/KF5/IncidenceEditor/
+usr/include/KF5/incidenceeditor/
+usr/include/KF5/incidenceeditor_version.h
+usr/lib/*/cmake/KF5IncidenceEditor/
+usr/lib/*/libKF5IncidenceEditor.so
+usr/lib/*/qt5/mkspecs/modules/qt_IncidenceEditor.pri

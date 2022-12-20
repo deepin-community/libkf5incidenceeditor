@@ -1,0 +1,172 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: incidenceeditor
+Upstream-Contact: kde-devel@kde.org
+Source: https://invent.kde.org/pim/incidenceeditor
+
+Files: *
+Copyright: 2006-2010, Allen Winter
+           2012, Allen Winter <winter@kde.org>
+           2010, Andras Mantia <andras@kdab.com>
+           Author: Kevin Krammer <krake@kdab.com>
+           Author: Sérgio Martins <sergio.martins@kdab.com>
+           2010, Bertjan Broeksema <broeksema@kde.org>
+           2010, Casey Link <casey@kdab.com>
+           2010, Casey Link <unnamedrambler@gmail.com>
+           2000-2007, Cornelius Schumacher
+           2000-2004, Cornelius Schumacher <schumacher@kde.org>
+           2002-2011, Free Software Foundation, Inc
+           2009-2010, Klaralvdalens Datakonsult AB, a KDAB Group company <info@kdab.net>
+           2010, Klarälvdalens Datakonsult AB
+           2009-2010, Klarälvdalens Datakonsult AB, a KDAB Group company <info@kdab.com>
+           2007, Loïc Corbasson
+           2007, Mathias Soeken <msoeken@tzi.de>
+           1997-1999, Preston Brown
+           2005, Rafal Rzepecki <divide@users.sourceforge.net>
+           2004-2005, Reinhold Kainhofer
+           2003-2004, Reinhold Kainhofer <reinhold@kainhofer.com>
+           2014, Sandro Knauß <knauss@kolabsys.com>
+           2010-2015, This_file_is_part_of_KDE
+           2007-2017, Volker Krause <vkrause@kde.org>
+           author Tobias Koenig <tokoe@kdab.com>
+License: LGPL-2+
+
+Files: src/attachmenteditdialog.cpp
+       src/attachmenteditdialog.h
+       src/attachmenticonview.cpp
+       src/attachmenticonview.h
+       src/attendeecomboboxdelegate.cpp
+       src/attendeecomboboxdelegate.h
+       src/attendeelineeditdelegate.cpp
+       src/attendeelineeditdelegate.h
+       src/editorconfig.cpp
+       src/editorconfig.h
+       src/freebusyurldialog.cpp
+       src/freebusyurldialog.h
+       src/groupwareuidelegate.cpp
+       src/groupwareuidelegate.h
+       src/incidenceresource.cpp
+       src/incidenceresource.h
+       src/individualmailcomponentfactory.cpp
+       src/individualmailcomponentfactory.h
+       src/individualmaildialog.cpp
+       src/individualmaildialog.h
+       src/korganizereditorconfig.cpp
+       src/korganizereditorconfig.h
+       src/ktimezonecombobox.cpp
+       src/ktimezonecombobox.h
+       src/resourcemanagement.cpp
+       src/resourcemanagement.h
+       src/templatemanagementdialog.cpp
+       src/templatemanagementdialog.h
+       src/tests/main.cpp
+Copyright: 2008-2013, Allen Winter <winter@kde.org>
+           2010, Bertjan Broeksema <broeksema@kde.org>
+           2007, Bruno Virlet <bruno.virlet@gmail.com>
+           2003-2004, Cornelius Schumacher <schumacher@kde.org>
+           2010, Kevin Ottens <ervin@kde.org>
+           2010, Klaralvdalens Datakonsult AB, a KDAB Group company <info@kdab.net>
+           2010, Klarälvdalens Datakonsult AB, a KDAB Group company <info@kdab.com>
+           2005, Rafal Rzepecki <divide@users.sourceforge.net>
+           2005, Reinhold Kainhofer <reinhold@kainhofer.com>
+           2014, Sandro Knauß <knauss@kolabsys.com>
+           2009, Sebastian Sauer <sebsauer@kdab.net>
+           2005, Till Adam <adam@kde.org>
+License: GPL-2+
+
+Files: autotests/ktimezonecomboboxtest.cpp
+       autotests/ktimezonecomboboxtest.h
+       src/ldaputils.cpp
+       src/ldaputils.h
+       src/resourceitem.cpp
+       src/resourceitem.h
+       src/resourcemodel.cpp
+       src/resourcemodel.h
+       tests/resourcemanagment_gui.cpp
+Copyright: 2014, Sandro Knauß <knauss@kolabsys.com>
+           2009, Thomas McGuire <mcguire@kde.org>
+License: GPL-2+3+KDEeV
+
+Files: po/ca/*
+       po/ca@valencia/*
+       po/uk/*
+Copyright: 2010-2018, This_file_is_part_of_KDE
+License: LGPL-2.1+3+KDEeV
+
+Files: autotests/modeltest.cpp
+       autotests/modeltest.h
+Copyright: 2007, Trolltech ASA
+License: GPL-2
+
+Files: debian/*
+Copyright: 2016, Maximiliano Curia <maxy@debian.org>
+License: LGPL-2+
+
+License: GPL-2
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; version 2 of the license.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ The complete text of the GNU General Public License version 2
+ can be found in `/usr/share/common-licenses/GPL-2'.
+
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ The complete text of the GNU General Public License version 2
+ can be found in `/usr/share/common-licenses/GPL-2'.
+
+License: GPL-2+3+KDEeV
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License as
+ published by the Free Software Foundation; either version 2 of
+ the License or (at your option) version 3 or any later version
+ accepted by the membership of KDE e.V. (or its successor approved
+ by the membership of KDE e.V.), which shall act as a proxy
+ defined in Section 14 of version 3 of the license.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ The complete text of the GNU General Public License version 2
+ can be found in `/usr/share/common-licenses/GPL-2', likewise, the complete
+ text of the GNU General Public License version 3 can be found in
+ `/usr/share/common-licenses/GPL-3'.
+
+License: LGPL-2+
+ This library is free software; you can redistribute it and/or modify it
+ under the terms of the GNU Library General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or (at your
+ option) any later version.
+ .
+ This library is distributed in the hope that it will be useful, but WITHOUT
+ ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+ FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Library General Public
+ License for more details.
+ .
+ The complete text of the GNU Library General Public License version 2
+ can be found in `/usr/share/common-licenses/LGPL-2'.
+
+License: LGPL-2.1+3+KDEeV
+ This file is distributed under the license LGPL version 2.1 or
+ version 3 or later versions approved by the membership of KDE e.V.
+ .
+ The complete text of the GNU Lesser General Public License version 2.1
+ can be found in `/usr/share/common-licenses/LGPL-2.1'.
+ .
+ The complete text of the GNU Lesser General Public License version 3
+ can be found in `/usr/share/common-licenses/LGPL-3'.

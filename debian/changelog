@@ -1,0 +1,396 @@
+libkf5incidenceeditor (21.08.1-deepin1) unstable; urgency=medium
+
+  * Rebuild
+
+ -- Deepin Packages Builder <packages@deepin.org>  Mon, 14 Nov 2022 17:45:36 +0800
+
+libkf5incidenceeditor (21.08.1-1) unstable; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (21.08.1).
+  * Bump Standards-Version to 4.6.0, no change required.
+
+ -- Norbert Preining <norbert@preining.info>  Sat, 11 Sep 2021 07:25:48 +0900
+
+libkf5incidenceeditor (21.08.0-1) unstable; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (21.08.0).
+
+ -- Norbert Preining <norbert@preining.info>  Mon, 16 Aug 2021 16:35:58 +0900
+
+libkf5incidenceeditor (21.04.3-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (21.04.3).
+
+ -- Norbert Preining <norbert@preining.info>  Fri, 09 Jul 2021 10:40:14 +0900
+
+libkf5incidenceeditor (21.04.1-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (21.04.1).
+
+ -- Norbert Preining <norbert@preining.info>  Fri, 14 May 2021 06:14:46 +0900
+
+libkf5incidenceeditor (21.04.0-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (21.04.0).
+  * Borrow minimal upstream signing key from k3b.
+  * Drop Kubuntu from maintainer name.
+  * Removed Maximiliano Curia from the uploaders, thanks for your work
+    on the package!
+  * Added myself to the uploaders.
+  * Update Debian ABI Manager patch.
+
+ -- Norbert Preining <norbert@preining.info>  Thu, 13 May 2021 09:46:59 +0900
+
+libkf5incidenceeditor (20.08.3-1) unstable; urgency=medium
+
+  [ Sandro Knauß ]
+  * Bump Standards-Version to 4.5.1 (No changes needed).
+  * New upstream release (20.08.3).
+  * Update build-deps and deps with the info from cmake.
+  * Update patch hunks.
+  * Minimize the upstream GPG signing key.
+
+ -- Sandro Knauß <hefee@debian.org>  Wed, 16 Dec 2020 01:51:20 +0100
+
+libkf5incidenceeditor (20.08.2-2) unstable; urgency=medium
+
+  * Team upload to unstable.
+
+ -- Sandro Knauß <hefee@debian.org>  Tue, 20 Oct 2020 00:10:11 +0200
+
+libkf5incidenceeditor (20.08.2-1) experimental; urgency=medium
+
+  [ Sandro Knauß ]
+  * New upstream release (20.08.2).
+  * Update build-deps and deps with the info from cmake.
+  * Update Homepage link to point to new invent.kde.org
+  * Update field Source in debian/copyright to invent.kde.org move.
+  * Update repository related entries to metadata file.
+  * Add Bug-* entries to metadata file.
+  * Remove not needed Build-Depends.
+
+ -- Sandro Knauß <hefee@debian.org>  Fri, 16 Oct 2020 00:53:41 +0200
+
+libkf5incidenceeditor (20.04.1-1) unstable; urgency=medium
+
+  [ Sandro Knauß ]
+  * New upstream release (20.04.1).
+  * Update build-deps and deps with the info from cmake.
+
+ -- Sandro Knauß <hefee@debian.org>  Wed, 27 May 2020 00:01:15 +0200
+
+libkf5incidenceeditor (20.04.0-1) experimental; urgency=medium
+
+  [ Sandro Knauß ]
+  * Update watch file to the new release-service location.
+  * Bump compat level to 13.
+  * Bump Standards-Version to 4.5.0 (No changes needed).
+  * Add Rules-Requires-Root field to control.
+  * New upstream release (20.04.0).
+  * Update build-deps and deps with the info from cmake.
+  * Update patch hunks.
+  * Set fields Upstream-Name, Upstream-Contact in debian/copyright.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright).
+  * Enable hardening all.
+  * Remove COPYING listed in copyright file.
+
+ -- Sandro Knauß <hefee@debian.org>  Wed, 13 May 2020 12:25:02 +0200
+
+libkf5incidenceeditor (19.08.3-1) unstable; urgency=medium
+
+  [ Sandro Knauß ]
+  * New upstream release (19.08.3).
+  * Update build-deps and deps with the info from cmake.
+
+ -- Sandro Knauß <hefee@debian.org>  Sat, 30 Nov 2019 22:56:06 +0100
+
+libkf5incidenceeditor (19.08.2-1) experimental; urgency=medium
+
+  [ Sandro Knauß ]
+  * New upstream release (19.08.2).
+  * Update build-deps and deps with the info from cmake.
+  * Update patch hunks.
+  * Remove breaks against kde-l10n packages.
+  * Move incidenceeditor.categories files from libkf5incidenceeditor-bin
+    -> libkf5incidenceeditor-data.
+  * Update install files for new upstream release.
+  * Remove not needed dependency for libkf5incidenceeditor-dev.
+
+ -- Sandro Knauß <hefee@debian.org>  Fri, 08 Nov 2019 10:42:22 +0100
+
+libkf5incidenceeditor (18.08.3-5) unstable; urgency=medium
+
+    * Release to unstable.
+
+ -- Sandro Knauß <hefee@debian.org>  Thu, 14 Nov 2019 23:54:44 +0100
+
+libkf5incidenceeditor (18.08.3-4) experimental; urgency=medium
+
+  [ Sandro Knauß ]
+  * Bump Standards-Version to 4.4.1 (No changes needed).
+  * Bump compat level to 12.
+  * Add myself to Uploaders.
+  * Delete not needed Breaks/Confilcts.
+  * Use virtual packages to bundle KDEPIM.
+  * Enforce depdendencies between KDEPIM packages to enable bundling.
+
+ -- Sandro Knauß <hefee@debian.org>  Sun, 06 Oct 2019 22:45:23 +0200
+
+libkf5incidenceeditor (18.08.3-3) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * Update symbols from buildds for 18.08.3
+
+ -- Sandro Knauß <hefee@debian.org>  Fri, 15 Feb 2019 14:37:44 +0100
+
+libkf5incidenceeditor (18.08.3-2) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * Update symbols from buildds for 18.08.3
+
+ -- Sandro Knauß <hefee@debian.org>  Thu, 14 Feb 2019 21:08:04 +0100
+
+libkf5incidenceeditor (18.08.3-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * New upstream release (18.08.3).
+  * Update build-deps and deps with the info from cmake.
+  * Bump Standards-Version to 4.3.0 (No changes needed).
+  * Removed acc autopkgtest.
+  * Removed testsuite autopkgtest.
+
+ -- Sandro Knauß <hefee@debian.org>  Mon, 04 Feb 2019 16:04:14 +0100
+
+libkf5incidenceeditor (18.08.1-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * Bump Standards-Version to 4.2.1 (No changes needed).
+  * Follow stable releases in KDE again.
+  * New upstream release (18.08.1).
+  * Update build-deps and deps with the info from cmake.
+
+ -- Sandro Knauß <hefee@debian.org>  Tue, 02 Oct 2018 23:21:16 +0200
+
+libkf5incidenceeditor (18.07.90-1) experimental; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * Update watch file to match unstable releases, too.
+  * New upstream release (18.07.90).
+  * Bump Standards-Version to 4.2.0 (No changes needed).
+  * Update build-deps and deps with the info from cmake.
+  * Update symbols from build for 18.07.90.
+  * Remove not needed upstream patch.
+  * Update copyright file for new upstream.
+
+ -- Sandro Knauß <hefee@debian.org>  Mon, 20 Aug 2018 15:32:40 +0200
+
+libkf5incidenceeditor (17.12.3-2) unstable; urgency=medium
+
+  * Team upload.
+  * Backport upstream commit dfa3162c737084f58796dafd1ee58302c212670f to fix
+    build with Qt 5.11; patch
+    upstream_Fix-build-with-Qt-5.11-caused-by-deprecated-QFontMet.patch.
+  * Bump Standards-Version to 4.1.5, no changes required.
+  * Update symbols file.
+
+ -- Pino Toscano <pino@debian.org>  Tue, 31 Jul 2018 22:50:34 +0200
+
+libkf5incidenceeditor (17.12.3-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * New upstream release (17.12.3).
+  * Update symbols from buildds for 17.12.2
+  * Update build-deps and deps with the info from cmake.
+  * use secure copyright format uri.
+  * Use secure uri in d/watch.
+
+ -- Sandro Knauß <hefee@debian.org>  Sat, 31 Mar 2018 18:27:21 +0200
+
+libkf5incidenceeditor (17.12.2-1) experimental; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * New upstream release (17.12.2).
+  * Update Vcs links to salsa.
+  * Bump Standards-Version to 4.1.3 (No changes needed).
+  * Update build-deps and deps with the info from cmake
+  * Update copyright file.
+  * remove patches, as they are not needed anymore.
+  * Enable build tests (make them non-failing).
+  * Use DebianABIManager to handle libkf5incidenceeditor propperly.
+  * Add new package libkf5incidenceeditor-data, to split arch
+    independent stuff like translation etc.
+  * Update library from libkf5incidenceeditor5 ->
+    libkf5incidenceeditor5abi1, because of ABI breakage.
+  * Bump debhelper build-dep and compat to 11.
+
+ -- Sandro Knauß <hefee@debian.org>  Fri, 09 Mar 2018 15:15:28 +0100
+
+libkf5incidenceeditor (17.08.3-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * New upstream release (17.08.3).
+  * Bump Standards-Version to 4.1.2 (No changes needed).
+  * Get rid of unnessary break/replaces of kde-l10n-(ast|eo).
+  * Remove not needed Build-Deps.
+  * Bump debhelper build-dep and compat to 10.
+  * Set l10npkgs_firstversion_ok to 4:16.04.3-9~
+
+ -- Sandro Knauß <hefee@debian.org>  Thu, 21 Dec 2017 17:59:30 +0100
+
+libkf5incidenceeditor (17.08.0-1) experimental; urgency=medium
+
+  * New upstream release (17.08.0)
+  * Bump Standards-Version to 4.1.0.
+  * Update upstream metadata
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files
+  * Bump group breaks (17.08)
+  * Release to experimental
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 01 Sep 2017 22:09:49 +0200
+
+libkf5incidenceeditor (17.08.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 17 Aug 2017 09:31:56 +0000
+
+libkf5incidenceeditor (17.04.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 12 Jul 2017 10:18:27 +0000
+
+libkf5incidenceeditor (17.04.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 07 Jun 2017 12:20:22 +0000
+
+libkf5incidenceeditor (17.04.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 11 May 2017 18:09:53 +0000
+
+libkf5incidenceeditor (17.04.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 20 Apr 2017 21:56:26 +0000
+
+libkf5incidenceeditor (16.12.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 08 Mar 2017 13:46:55 +0000
+
+libkf5incidenceeditor (16.12.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 08 Feb 2017 16:56:20 +0000
+
+libkf5incidenceeditor (16.12.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 11 Jan 2017 13:14:46 +0000
+
+libkf5incidenceeditor (16.12.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 14 Dec 2016 16:24:28 +0000
+
+libkf5incidenceeditor (16.08.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 21 Nov 2016 13:53:02 +0000
+
+libkf5incidenceeditor (16.08.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 14 Oct 2016 13:38:44 +0000
+
+libkf5incidenceeditor (16.08.1-1~1.gbpbdd8fe) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @bdd8fee3da20e638168e923d2da2dc15d5757fca **
+
+  * Update symbols files from buildds logs (16.04.2-2).
+  * Update build-deps and deps with the info from cmake
+  * Refresh patches
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 09 Sep 2016 13:54:38 +0200
+
+libkf5incidenceeditor (16.08.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 16 Sep 2016 13:05:37 +0000
+
+libkf5incidenceeditor (16.08.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 17 Aug 2016 11:47:08 +0000
+
+libkf5incidenceeditor (16.04.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 03 Aug 2016 12:50:40 +0000
+
+libkf5incidenceeditor (16.04.2-2) unstable; urgency=low
+
+  * Release to unstable.
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 07 Jul 2016 14:13:00 +0200
+
+libkf5incidenceeditor (16.04.2-1) experimental; urgency=medium
+
+  [ Automatic packaging ]
+  * Refresh patches
+  * Update symbols files with the buildds results
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 02 Jul 2016 11:51:41 +0200
+
+libkf5incidenceeditor (16.04.1-1) experimental; urgency=medium
+
+  [ Maximiliano Curia ]
+  * Initial release.
+  * Drop the m-a field for the bin package
+  * Add missing Breaks/Replaces
+  * Add -dev dependencies needed by the cmake file
+  * Add new upstream patch: upstream_add_copying_files.patch
+
+  [ Automatic packaging ]
+  * Update symbols files
+  * Refresh patches
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 06 Jun 2016 23:22:03 +0200
